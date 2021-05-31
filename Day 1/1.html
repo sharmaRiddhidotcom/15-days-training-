@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+      <style type="text/css">
+          body{
+            background-color:Lightskyblue;
+          }
+          h1{
+            text-align:center;
+          }
+          tr{
+            height:40px;
+          }
+      </style>
+    </head>
+    <body>
+        <h1> REGISTRATION FORM</h1>
+        <form>
+            <table align="center">
+              <tr>
+                <td>Name:</td>
+                <td><input type ="text" name="Name" placeholder="Enter Name"></td>
+              </tr>
+              <tr>
+                <td>Email:</td>
+                <td><input type="email" name="Email" placeholder="Enter Email"></td>
+              </tr>
+              <tr>
+                <td>Mobile No.:</td>
+                <td><input type= "number"	name="Mob"></td>
+              </tr>
+              <tr>
+                <td>Date of	Birth:</td>
+                <td><input type="date" name="DOB"></td>
+              </tr>
+              <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female </td>
+              </tr>
+              <tr>
+                <td>Address:</td>
+                <td><textarea rows="2"	cols="20" name="address"></textarea></td>
+              </tr>
+              <tr>
+                <td>City:</td>
+                <td>
+                    <select name="city">
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Vapi">Vapi</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                <td>Hobbies:</td>
+                <td><input type="checkbox" name="hobby">Reading
+                <input type="checkbox" name="hobby">Singing
+                <input	type="checkbox" name="hobby">Dancing</td>
+              </tr>
+              <tr>
+                <td>Image:</td>
+                <td><input type="file"></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center"><input type="submit"><input type="reset"></td>
+              </tr>
+            </table>
+        </form>
+    </body>
+</html>
