@@ -1,0 +1,5 @@
+
+class studentlist(ListView):
+    model = Student
+    template_name = 'slist.html'
+
